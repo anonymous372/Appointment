@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Appointment
+        </title>
+        <link rel="stylesheet" href="./app.css">
+        <script src="./app.js" defer></script>
+    </head>
+    <body>
+        <h1>Set an Appointment</h1>
+        <div id="form">
+            <label>Name </label><input type="text" id="name" placeholder="Name"><br>
+            <label>Email </label><input type="email" id="email" placeholder="example@gmail.com"><br>
+            <label>Date </label><input type="date" id="date" ><br>
+            <label>State </label><input type="text" id="state" placeholder="Delhi"><br>
+            <label>City </label><input type="text" id="city" placeholder="New Delhi"><br>
+            <div><button id="submit">Book Now</button></div>
+        </div>
+        <div id="list-container">
+            <h4>Appointments</h4>
+            <ul id="list">
+                <div class="head items">
+                    <div>Name</div>
+                    <div>Email</div>
+                    <div>Date</div>
+                    <div>State</div>
+                    <div>City</div>
+                </div>
+            </ul>
+        </div>
+    </body>
+</html>

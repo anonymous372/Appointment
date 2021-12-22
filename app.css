@@ -1,0 +1,79 @@
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif
+}
+h1{
+    text-align: center;
+}
+#form{
+    width:fit-content;
+    margin:auto;
+    
+    /* text-align: center; */
+    padding:20px;
+    border: 1px solid rgb(134, 134, 134);
+    border-radius: 4px;
+}
+label{
+    display: inline-block;
+    width: 3rem;
+    font-size: medium;
+    background-color: rgb(225, 249, 255);
+    padding: 2px 4px;
+    border-radius: 4px;
+    box-shadow: 0 0 4px rgba(0,0,0,0.4);
+    text-align: center;
+}
+input{
+    margin:10px;
+    font-size: 18px;
+    font-weight: 500;
+    width:calc(100% - 5rem);
+}
+#form div{
+    text-align: center;
+}
+#submit{
+    background-color: green;
+    font-weight: 700;
+    color: white;
+    font-size: medium;
+    border:1px solid rgb(51, 51, 51);
+    border-radius: 3px;
+    padding: 6px 20px;
+    margin: 30px auto 0px;
+}
+#list-container{
+    margin-top: 40px;
+    border-top: 3px solid rgb(94, 94, 94);
+    background-color:rgb(224, 245, 252);
+    padding: 5px;
+}
+h4{
+    text-align: center;
+    margin: 6px 0 10px;
+}
+ul{
+    padding: 0 10px;
+}
+ul div{
+    font-size: 18px;
+    margin:15px 0;
+    border-radius: 4px;
+}
+.items{
+    display: flex;
+    justify-content: space-around;
+    background-color: wheat;
+}
+.head{
+    background-color: rgb(67, 166, 247);
+    color: white;
+    font-weight: 800;
+}
+.items div{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
