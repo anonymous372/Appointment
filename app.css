@@ -5,6 +5,20 @@ body{
 h1{
     text-align: center;
 }
+#link{
+    text-align: center;
+    margin-top: 40px;
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(67, 166, 247);
+    padding: 2px 10px;
+    font-weight: 800;
+    border: 1px solid rgb(112, 112, 112);
+    border-radius: 4px;
+}
 #form{
     width:fit-content;
     margin:auto;
